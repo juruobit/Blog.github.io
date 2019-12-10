@@ -45,6 +45,13 @@ html, body
 	visibility : hidden;
 }
 
+.BackToHomepage
+{
+	background-color : rgba(255, 255, 255, .5);
+	visibility : hidden;
+	color : saddlebrown;
+}
+
 .LeftBar:hover
 {
 	width : 150px;
@@ -66,4 +73,11 @@ html, body
 	left : 35%;
 	font-size : x-large;
 	color : ghostwhite;
+}
+
+.LeftBar:hover > .BackToHomepage
+{
+	visibility : visible;
+	top : 10px;
+	left : 35%;
 }
